@@ -1,0 +1,49 @@
+body{
+background: radial-gradient(closest-side, #7327FB, #1E0E3B);
+height: 100vh; 
+margin: 0; 
+background-repeat: no-repeat;
+background-size: cover;
+}
+.nav_text{
+    color: white;
+    font-family: 'Pacifico';
+    font-size: larger;
+    
+}
+
+
+
+.home-container{
+    color: white;
+    background: linear-gradient(#674095, #8A5CBF);
+    border-radius: 150px;
+    text-align: center;
+
+}
+.home-container h1{
+    color: white;
+text-decoration: underline;}
+nav{
+top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 0.5rem 1rem; 
+  background: inherit; 
+  z-index: 1000;
+
+}
+button{
+background-color: #31094A;
+filter: drop-shadow(5px 5px 5px );
+
+border-radius: 120px;
+border: solid;
+border-color: #31094A;
+}
+button p {
+    color: white;
+}
