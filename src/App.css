@@ -4,26 +4,55 @@ height: 100vh;
 margin: 0; 
 background-repeat: no-repeat;
 background-size: cover;
+  padding: 0;
+
 }
-.nav_text{
-    color: white;
-    font-family: 'Pacifico';
-    font-size: larger;
-    
-}
+
 
 
 
 .home-container{
-    color: white;
     background: linear-gradient(#674095, #8A5CBF);
-    border-radius: 150px;
+    border-radius: 100px;
     text-align: center;
+filter: drop-shadow(5px 5px 5px );
+font-family: 'Risque';
+margin: 0px;
+margin-left: auto; margin-right: auto;
+width: 30cm;
+height: 12cm;
+position: absolute;
+top: 20%;
+left: 13%;
+
 
 }
-.home-container h1{
+.nav-links{
+  position: absolute;
+  bottom: 85%;
+  left: 60%;
+}
+.home-container h1 {
     color: white;
-text-decoration: underline;}
+text-decoration: underline;
+font-size: 60px;
+margin: auto;
+}
+
+.hometoptext{
+        color: white;
+        margin: 5px;
+        font-size: 30px;
+
+}
+.hometext{
+        color: white;
+        font-size: 17.5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+
+
+}
 nav{
 top: 0;
   left: 0;
@@ -33,17 +62,163 @@ top: 0;
   align-items: center;
   padding: 0.5rem 1rem; 
   background: inherit; 
-  z-index: 1000;
+  margin: 0;
+  padding: 0;
 
+}
+nav h1{
+  background: linear-gradient(#FFFFFF, #B1A3D7); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-size: 75px;
+  position: absolute;
+  left: 5.5%;
+  bottom: 82.5%;
+  
 }
 button{
 background-color: #31094A;
-filter: drop-shadow(5px 5px 5px );
-
 border-radius: 120px;
 border: solid;
 border-color: #31094A;
+font-family: 'Pacifico';
+  margin: 5px 0;
+  padding: 10;
+  width: 175px;
 }
 button p {
     color: white;
+    font-size: 20px;
+    
+}
+.NavBar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 1.2em sans-serif;
+
+  display: flex;
+  align-items: center;
+
+    
+}
+.NavBar p{
+        color: white;
+            font-family: 'Pacifico';
+padding: 0.5rem 1em;
+display: block;
+font-size: 27.5px;
+}
+.NavBar h1{
+font-family: 'Pacifico';
+  margin: 0; 
+
+}
+.homephoto{
+    border-radius: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+    .aboutpage{
+      display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 80px;
+    }
+    .about-containers{
+      position: relative;
+      width: 300px;
+      height: 400px;
+    }
+
+.AboutTitle{
+  color: white;
+font-size: 60px;
+font-family: 'Pacifico';
+margin-top: 20px;
+position: absolute;
+right: 47.5%;
+top: 12.5%;
+
+
+}
+.About-container1{
+  background: linear-gradient(#674095, #8A5CBF);
+    border-radius: 50px;
+filter: drop-shadow(5px 5px 5px );
+font-family: 'Risque';
+width: 10cm;
+height: 13.5cm;
+position: absolute;
+top: 14%;
+left: 8%;
+text-align: center;
+}
+.About-container1 h3{
+  font-family: 'Risque';
+  color: white;
+
+}
+.About-container1 p{
+    font-family: 'Risque';
+  color: white;
+  text-align: center;
+
+}
+.aboutphoto{
+    border-radius: 150px;
+    height: 100px;
+    margin-top: 20px;
+    
+    
+}
+.about-container2 {
+  background: linear-gradient(#674095, #8A5CBF);
+    border-radius: 50px;
+    text-align: center;
+filter: drop-shadow(5px 5px 5px );
+font-family: 'Risque';
+  position: absolute;
+  bottom: 2.5%;
+  right: 39.5%;
+  height: 10.5cm;
+  width: 12.5cm;
+}
+.about-container2 h3{
+  font-family: 'Risque';
+  color: white;
+
+}
+.about-container2 p{
+    font-family: 'Risque';
+  color: white;
+
+}
+.contactlist{
+      text-align:start;
+      font-size: 20px;
+      margin-top: 70px;
+
+}
+.container1-title{
+  font-size: 30px;
+  margin: auto;
+}
+/* .container1-text{
+
+} */
+.skilltitle{
+  font-size: 30px;
+  
+}
+.skilltext{
+  position: absolute;
+  left: 40.5%;
+  top: 63.5%;
+  color: white;
+  font-family: 'Risque';
+}
+.skillimage{
+  height: 100px;
 }

@@ -2,9 +2,10 @@
 const Home = () => {
     return (  
         <div className="home-container">
-            <h1>hallooooo</h1>
-            <h2>Mijn naam is yassir</h2>
-            <p>ik hou van ding ene ejem ene me eme wmw mrnr</p>
+            <img className="homephoto" src="./public/img/foto.png" alt="e" />
+            <h1>Hoi!</h1>
+            <p className="hometoptext">Mijn naam is Yassir Jorfi</p>
+            <p className="hometext">Ik ben een front-end developer <br />die een passie heeft voor design</p>
             <button><p>Neem contact op</p></button>
         </div>
     );
