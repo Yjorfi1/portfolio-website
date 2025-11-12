@@ -12,7 +12,7 @@ background-size: cover;
 
 
 .home-container{
-    background: linear-gradient(#674095, #8A5CBF);
+  background: linear-gradient( #a15cbf, #7e4095);
     border-radius: 100px;
     text-align: center;
 filter: drop-shadow(5px 5px 5px );
@@ -138,13 +138,13 @@ font-size: 60px;
 font-family: 'Pacifico';
 margin-top: 20px;
 position: absolute;
-right: 47.5%;
+right: 30.5%;
 top: 12.5%;
 
 
 }
 .About-container1{
-  background: linear-gradient(#674095, #8A5CBF);
+  background: linear-gradient( #a15cbf, #7e4095);
     border-radius: 50px;
 filter: drop-shadow(5px 5px 5px );
 font-family: 'Risque';
@@ -152,7 +152,7 @@ width: 10.5cm;
 height: 13.5cm;
 position: absolute;
 top: 14%;
-left: 8%;
+left: 23%;
 text-align: center;
 }
 .About-container1 h3{
@@ -163,7 +163,8 @@ text-align: center;
 .About-container1 p{
     font-family: 'Risque';
   color: white;
-  text-align: center;
+  text-align:start;
+  padding-left: 40px;
 
 }
 .aboutphoto{
@@ -174,16 +175,17 @@ text-align: center;
     
 }
 .about-container2 {
-  background: linear-gradient(#674095, #8A5CBF);
+  background: linear-gradient( #a15cbf, #7e4095);
     border-radius: 50px;
-    text-align: center;
 filter: drop-shadow(5px 5px 5px );
 font-family: 'Risque';
   position: absolute;
   bottom: 2.5%;
-  right: 39.5%;
+  right: 22.5%;
   height: 10.5cm;
   width: 12.5cm;
+  text-align: center;
+  align-items: center;
 }
 .about-container2 h3{
   font-family: 'Risque';
@@ -193,31 +195,33 @@ font-family: 'Risque';
 .about-container2 p{
     font-family: 'Risque';
   color: white;
-
+  
 }
 .contactlist{
       text-align:start;
-      font-size: 20px;
-      margin-top: 70px;
+      font-size: 22px;
+      margin-top: 50px;
 
 }
 .container1-title{
-  font-size: 30px;
+  text-align: center;
+  font-size: 37px;
   margin: auto;
 }
-/* .container1-text{
-
-} */
+.container1-text{
+font-size: 21px;
+}
 .skilltitle{
-  font-size: 30px;
+  font-size: 37px;
   
 }
 .skilltext{
-  position: absolute;
-  left: 40.5%;
-  top: 63.5%;
   color: white;
   font-family: 'Risque';
+  font-size: 20px;
+  position: absolute;
+  top: 51%;
+  left: 51.5%;
 }
 .skillimage{
   height: 100px;
@@ -246,7 +250,7 @@ background-color: #CB89F2;
     color: white;
     border-radius: 18px;
     border: 0cm;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     width: 300px;
     height: 50px;
     font-size: 20px;
@@ -315,3 +319,30 @@ background-color: #CB89F2;
 hr{
   height: 2px;
 background-color: white;}
+.skill-list{
+  display: flex;
+  gap: 50px;
+    font-family: 'Risque';
+    color: white;
+    position: absolute;
+    top: 66%;
+    right: 28%;
+
+
+}
+.skill-list2{
+  display: flex;
+  gap: 50px;
+  font-family: 'Risque';
+    color: white;
+        position: absolute;
+    top: 82%;
+
+        right: 28%;
+
+}
+.skills img{
+  display: flex;
+  height: 70px;
+  
+}

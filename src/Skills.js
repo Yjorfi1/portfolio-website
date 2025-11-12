@@ -11,22 +11,22 @@ name: "CSS"
 },
 {
     id: 3,
-    image: "../public/img/js.png",
+    image: "../img/js.png",
 name: "Javascript",
 },
 {
     id: 4,
-    image: "../public/img/php.png",
+    image: "../img/php.png",
 name: "Php"
 },
 {
     id: 5,
-    image: "../public/img/react.png",
+    image: "../img/react.png",
 name: "React",
 },
 {
     id: 6,
-    image: "../public/img/python.png",
+    image: "../img/python.png",
 name: "Python"
 
 },

@@ -1,4 +1,13 @@
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import  skills  from '../Skills.js';
+import skilllist from '../components/SkillList';
+
 const about = () => {
+     const navigate = useNavigate();
+  const [skillSet, setSkillSet] = useState(skills);
+
+
     return ( 
         <div classname="aboutpage">
         <div classname="about-containers">
@@ -22,6 +31,17 @@ const about = () => {
      <p className="skilltext">Tijdens mijn tijd op het techniek college <br />
 rotterdam heb ik veel verschillende dingen <br />
 geleerd. Hier zijn een paar. ↓</p>
+<div className='skill-list'>
+    <div className='skills'><img src="../img/html.png" alt="html" /><p>HTML</p></div>
+        <div className='skills'><img src="../img/css.png" alt="css" /><p>CSS</p></div>
+    <div className='skills'><img src="../img/js.png" alt="javascript" /><p>Javascript</p></div>
+    </div>
+
+    <div className='skill-list2'>
+    <div className='skills'><img src="../img/php.png" alt="php" /><p>PHP</p></div>
+    <div className='skills'><img src="../img/react.png" alt="react" /><p>React</p></div>
+    <div className='skills'><img src="../img/python.png" alt="python" /><p>Python</p></div>
+</div>
 </div>
        
      );
