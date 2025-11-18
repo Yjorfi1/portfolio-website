@@ -9,10 +9,8 @@ background-size: cover;
 }
 
 
-
-
 .home-container{
-  background: linear-gradient( #a15cbf, #7e4095);
+  background: linear-gradient( #8A5CBF, #674095);
     border-radius: 100px;
     text-align: center;
 filter: drop-shadow(5px 5px 5px );
@@ -119,18 +117,18 @@ font-family: 'Pacifico';
     height: 150px;
     margin-top: 20px;
 }
-    .aboutpage{
+    /* .aboutpage{
       display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 80px;
-    }
-    .about-containers{
+    } */
+    /* .about-containers{
       position: relative;
       width: 300px;
       height: 400px;
-    }
+    } */
 
 .AboutTitle{
   color: white;
@@ -144,7 +142,7 @@ top: 12.5%;
 
 }
 .About-container1{
-  background: linear-gradient( #a15cbf, #7e4095);
+  background: linear-gradient( #8A5CBF, #674095);
     border-radius: 50px;
 filter: drop-shadow(5px 5px 5px );
 font-family: 'Risque';
@@ -175,7 +173,7 @@ text-align: center;
     
 }
 .about-container2 {
-  background: linear-gradient( #a15cbf, #7e4095);
+  background: linear-gradient( #8A5CBF, #674095);
     border-radius: 50px;
 filter: drop-shadow(5px 5px 5px );
 font-family: 'Risque';

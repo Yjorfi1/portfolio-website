@@ -9,8 +9,8 @@ const about = () => {
 
 
     return ( 
-        <div classname="aboutpage">
-        <div classname="about-containers">
+        <div className="aboutpage">
+        <div className="about-containers">
         <div className="About-container1">
             <img  className="aboutphoto" src="../public/img/foto.png" alt="foto" />
              <p className="container1-title">Yassir Jorfi</p>
