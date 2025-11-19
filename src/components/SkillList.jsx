@@ -1,3 +1,4 @@
+import { useState } from "react";
 import skills from "../Skills";
 const skilllist = () => {
     return ( <div className="skill-list">
