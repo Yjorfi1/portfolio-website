@@ -383,6 +383,9 @@ filter: drop-shadow(10px 10px 10px );
 display: flex;
 gap: 50px;
 }
+.projectbody img {
+border-radius: 15px;
+}
 .project-title{
   font-family: 'Pacifico';
     color: white;
