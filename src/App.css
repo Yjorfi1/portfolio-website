@@ -8,7 +8,13 @@ background-size: cover;
 
 }
 
-
+link{
+  text-decoration: none;
+}
+.contactbutton{
+  font-size: 25px;
+  margin: 8px;
+}
 .home-container{
   background: linear-gradient( #8A5CBF, #674095);
     border-radius: 100px;
@@ -29,6 +35,11 @@ left: 13%;
   position: absolute;
   bottom: 85%;
   left: 60%;
+    text-decoration: none;
+
+}
+.nav-link.active {
+  text-decoration: none;
 }
 .home-container h1 {
     color: white;
@@ -62,6 +73,10 @@ top: 0;
   background: inherit; 
   margin: 0;
   padding: 0;
+    text-decoration: none;
+
+  
+  
 
 }
 nav h1{
@@ -71,8 +86,9 @@ nav h1{
   font-size: 75px;
   position: absolute;
   left: 5.5%;
-  bottom: 82.5%;
-  
+  bottom: 82.5%; 
+    text-decoration: none;
+ 
 }
 button{
 background-color: #31094A;
@@ -87,6 +103,8 @@ font-family: 'Pacifico';
 button p {
     color: white;
     font-size: 20px;
+      text-decoration: none;
+
     
 }
 .NavBar ul{
@@ -97,6 +115,8 @@ button p {
 
   display: flex;
   align-items: center;
+    text-decoration: none;
+
 
     
 }
@@ -106,10 +126,13 @@ button p {
 padding: 0.5rem 1em;
 display: block;
 font-size: 27.5px;
+  text-decoration: none;
 }
 .NavBar h1{
 font-family: 'Pacifico';
   margin: 0; 
+    text-decoration: none;
+
 
 }
 .homephoto{
@@ -344,3 +367,45 @@ background-color: white;}
   height: 70px;
   
 }
+
+.projectsbody{
+    background: linear-gradient( #8A5CBF, #674095);
+  align-items: center;
+  text-align: center;
+  width: 9cm;
+    height: 12cm;
+    gap: 20px;
+        border-radius: 100px;
+filter: drop-shadow(10px 10px 10px );
+}
+.projectbody{
+  padding-left: 5cm;
+display: flex;
+gap: 50px;
+}
+.project-title{
+  font-family: 'Pacifico';
+    color: white;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 50px
+  
+}
+.Projectfoto
+{
+  margin-top: 50px;
+  height: 130px;
+}
+.project-names
+{
+    font-family: 'Risque';
+    color: white;
+font-size: 30px;
+}
+.projectbutton{
+  color: white;
+  margin-top: 50px;
+  height: 60px;
+font-size: 20px;
+}
+

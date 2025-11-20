@@ -9,12 +9,14 @@ const Projects = () => {
   const [projectList, setProjectList] = useState(projectdata);
 
   const goToDetail = (projectId) => {
-    navigate(`/project/${projectId}`);
+    navigate(`/projects/${projectId}`);
   };
 
-    return ( 
-        <section>
-    <h1>Projecten</h1> 
+    return (     
+    <>
+    <p className='project-title'>Projecten</p> 
+
+        <section className='projectbody'>
     {projectList.map(project => (
         <ProjectCard
           key={project.id}
@@ -25,7 +27,7 @@ const Projects = () => {
 
     </section>
 
-
+</>
     );
 }
  

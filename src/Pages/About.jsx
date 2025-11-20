@@ -17,7 +17,7 @@ const about = () => {
              <p className="container1-text">Ik ben een hardwerkend persoon <br />die goed alleen en met anderen <br /> kan werken. ik heb een passie <br />voor design en coderen in het <br />algemeen</p>
 
 <p className="contactlist">
-⌂ 1234 abcd huisadres <br /> 
+⌂ 3137LM Lissabonweg 437 <br /> 
 🕻  +31 6 42410639 <br />
 🖂 9024527@student.zadkine.nl <br />
 🌐 https://github.com/Yjorfi1/</p>
