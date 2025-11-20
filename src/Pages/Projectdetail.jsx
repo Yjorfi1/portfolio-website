@@ -12,18 +12,34 @@ const ProjectDetail = () => {
     return <div>project niet gevonden 😡</div>;
   }
 
-  return (
-    <section>
-      <button onClick={() => navigate('/') }>
-        ← Terug naar home
-      </button>
+  return (<>
+          <h1 className='detailtitle'>{project.name}</h1>
 
-      <h1>{project.name}</h1>
-      <p>{project.desc}</p>
-      <p>{project.desc2}</p>
-      <img src={project.image} alt="Projectfoto" />
-      <img src={project.image2} alt="Projectfoto" />
+    <section className='detailpage'>
+      
+      <section className='detailbox'>
+          <p
+      className='detailtext'
+      dangerouslySetInnerHTML={{ __html: project.desc }}
+    />
+    <p
+      className='detailtext2'
+      dangerouslySetInnerHTML={{ __html: project.desc2 }}
+    />
     </section>
+<section className='detailphoto'>
+      <img src={project.image} alt="Projectfoto" className='detailphoto'/>
+      
+      <img src={project.image2} alt="Projectfoto" className='detailphoto2' />
+      </section>
+      
+     
+
+    </section>
+    <button onClick={() => navigate('/project') } className='detailbutton'>
+        Terug naar project
+      </button>
+    </>
   );
 }
 
