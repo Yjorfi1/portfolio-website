@@ -9,7 +9,7 @@ import ProjectDetail from "./Pages/Projectdetail"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-react/">
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index path='/' element={<Home />} />
